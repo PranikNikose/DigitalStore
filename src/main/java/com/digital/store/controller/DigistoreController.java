@@ -8,6 +8,6 @@ public class DigistoreController {
 
 	@GetMapping("/Pranik")
 	public String digistore() {
-		return "Pranik is Handsome.";
+		return "Pranik is Handsome,Cute & Good Boy.";
 	}
 }
