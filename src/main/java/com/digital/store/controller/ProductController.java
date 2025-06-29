@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProductController {
 
-	@GetMapping("/product")
+	@GetMapping("/Diksha")
 	public String product() {
-		return "ProductController is called";
+		return "Diksha is Beautiful.";
 	}
 }

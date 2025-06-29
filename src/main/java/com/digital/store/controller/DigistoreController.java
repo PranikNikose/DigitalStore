@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DigistoreController {
 
-	@GetMapping("/digistore")
+	@GetMapping("/Pranik")
 	public String digistore() {
-		return "DigistoreController is called";
+		return "Pranik is Handsome.";
 	}
 }
